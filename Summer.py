@@ -11,28 +11,28 @@ async def on_ready():
 # beginning of commands for summerbot
 @client.command()
 async def oh():
-    await client.send_file(client.get_channel('324229388629573633'), 'C:/Users/Ian/Pictures/Fanart/Anime/oh.png')
+    await client.send_file(client.get_channel('chan_id'), 'filepath')
 @client.command()
 async def smug():
-    await client.send_file(client.get_channel('324229388629573633'), 'C:/Users/Ian/Pictures/Fanart/Anime/smug hikari.jpg')
+    await client.send_file(client.get_channel('chan_id'), 'filepath')
 @client.command()
 async def facepalm():
-    await client.send_file(client.get_channel('324229388629573633'), 'C:/Users/Ian/Pictures/Fanart/Anime/handtoface.jpg')
+    await client.send_file(client.get_channel('chan_id'), 'filepath')
 @client.command()
 async def pet():
-    await client.send_file(client.get_channel('324229388629573633'), 'C:/Users/Ian/Pictures/Fanart/Anime/headpat.gif')
+    await client.send_file(client.get_channel('chan_id'), 'filepath')
 @client.command()
 async def lewd():
-    await client.send_file(client.get_channel('324229388629573633'), 'C:/Users/Ian/Pictures/Fanart/Anime/hentie.png')
+    await client.send_file(client.get_channel('chan_id'), 'filepath')
 @client.command()
 async def mfw():
-    await client.send_file(client.get_channel('324229388629573633'), 'C:/Users/Ian/Pictures/Fanart/Anime/myface.jpg')
+    await client.send_file(client.get_channel('chan_id'), 'filepath')
 @client.command()
 async def keikaku():
-    await client.send_file(client.get_channel('324229388629573633'), 'C:/Users/Ian/Pictures/Fanart/Anime/calculated.png')
+    await client.send_file(client.get_channel('chan_id'), 'filepath')
 @client.command()
 async def bait():
-    await client.send_file(client.get_channel('324229388629573633'), 'C:/Users/Ian/Pictures/Fanart/Anime/BKWMkRP.png')
+    await client.send_file(client.get_channel('chan_id'), 'filepath')
 
 
-client.run("MzQ0MjYyNDMyMzUwNTM1Njgw.DGqK8g.u9tcG0ImcTXk-0SxjKD89ZqOC64")
+client.run("bot_token")
